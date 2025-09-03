@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <div class="form-container">
+      <h2>Registration Form</h2>
+      <form>
+         <label for="fullname">Name:</label>
+         &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp; &nbsp;
+         <input type="text" id="fullname"name="fullame" placeholder="Enter your full name" required>
+         <br></br>
+
+         <label for="email">Email:</label>
+         &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+         <input type="email" id="email"name="email" placeholder="Enter your email" required>
+         <br></br>
+
+         <label for="mobile number">Mobile Number:</label>
+         <input type="mobile number" id="mobile number"name="mobile number" placeholder="Enter your mobile number" required>
+         <br></br>
+
+         <label for="password">Password:</label>
+         &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+         <input type="password" id="password" name="password" placeholder="Enter your password" required>
+         <br></br>
+
+         <label for="address">Address:</label>
+         &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;
+         <input type="text" id="address"name="Address" placeholder="Enter your full address" required>
+         <br></br>
+    
+         <label for="gender">Gender:</label>
+         <div class="radio-group"></div>
+         <label> <input type="radio" name="gender" value="Male">Male</label>
+         <label> <input type="radio" name="gender" value="Female">Female</label>
+         <label> <input type="radio" name="gender" value="Other">Other</label>
+         <br></br>
+    
+         <label for="country">Country</label>
+         <select id="country" name="country" required>
+           <option value="Select">....Select....</option>
+           <option value ="India">India</option>
+           <option value ="USA">USA</option>
+           <option value ="UK">UK</option>
+           <option value ="Australia">Australia</option>
+           <option value ="France">France</option>
+           <option value ="Brazil">Brazil</option>
+         </select>
+         <br></br>
+
+         <label for="dob">Date of Birth:</label>
+         <input type="date" id="dob" name="dob">
+         <br></br>
+         
+        <h3>Upload Documents:</h3>
+
+        <label for="aadhaar">Aadhaar Card:</label>
+        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;
+        <input type="file" id="aadhaar" name="aadhaar" accept=".pdf,.jpg,.jpeg,.png" required>
+        <br></br>
+  
+        <label for="photo">Passport Size Photo:</label>
+        &nbsp;
+        <input type="file" id="photo" name="photo" accept=".jpg,.jpeg,.png" required>
+        <br></br>
+  
+        <label for="marksheet10">10th Marksheet:</label>
+        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+         &nbsp;
+        <input type="file" id="marksheet10" name="marksheet10" accept=".pdf,.jpg,.jpeg,.png" required>
+        <br></br>
+  
+        <label for="marksheet12">12th Marksheet:</label>
+        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+         &nbsp;
+        <input type="file" id="marksheet12" name="marksheet12" accept=".pdf,.jpg,.jpeg,.png" required>
+        <br></br>
+        
+         <b>Note:</b> 
+         <br></b>
+         <i>
+            <mark> 
+                <u>  
+            Incorrect or incomplete information may
+            lead to rejection of the form.
+            </u>
+            </mark>
+         </i>
+         <br></br>
+         <label>
+            <input type="checkbox" required> I agree to the terms & conditions.
+            </label>
+            <br></br>
+   
+       <button class="submit-button">
+            SUBMIT
+       </button>
+   
+       <button class="reset-button">
+            RESET
+      </button>
+         <h3>Documents required-</h3>
+        <ul>
+            <li>Passport size photo</li>
+            <li>Aadhar card</li>
+            <li>10th Marksheet</li>
+            <li>12th Marksheet</li>
+            
+        </ul>
+        <h3>Procedure to fill the registration form:</h3>
+        <ol>
+             <li>Open the registration form</li>
+             <li>Fill all the details</li>
+             <li>Upload documents</li>
+             <li>Click on submit</li>
+        </ol>
+        <table border="1">
+            <tr>
+                <th>Course</th>
+                <th>Duration</th>
+                <th>Fees</th>
+            </tr>
+            <tr>
+                <td>B.Tech</td>
+                <td>4 years</td>
+                <td>Rs.80,000/year</td>
+            </tr>
+            <tr>
+                <td>M.Tech</td>
+                <td>2 years</td>
+                <td>Rs.90,000/year</td>
+            </tr>
+            <tr>
+                <td>MBA</td>
+                <td>2 years</td>
+                <td>Rs.1,00,000/year</td>
+            </tr>
+        </table>
+        
+
+  </form>
+ </div>
+</body>
+</html>
