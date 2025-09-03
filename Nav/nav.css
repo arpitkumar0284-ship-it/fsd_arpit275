@@ -19,7 +19,7 @@
 }
 .navbar a.active{
     background-color: blueviolet;
-    color: white;
+    color: rgb(241, 232, 232);
 
 }
 .dropdown{
